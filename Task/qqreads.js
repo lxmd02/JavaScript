@@ -268,13 +268,7 @@ function all() {
           if (task.data && task.data.taskList[2].doneFlag == 0)
               qqreadsign2();// 签到翻倍
 }    
-     else if (i == 8&&task.data && 
-task.data.user.amount >= 100000){
-          if ($.isNode()&&d.getHours() == 23)
-              qqreadwithdraw();//现金提现
-     else if (b.getHours() == 23)
-              qqreadwithdraw();//现金提现
-}
+
 
      else if (i == 9){
           if ($.isNode()&&d.getHours() == 23 && d.getMinutes() >= 40)
